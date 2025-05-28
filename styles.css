@@ -1,7 +1,7 @@
 body.index {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('assets/background.png') no-repeat center center fixed;
+  background-image: url('assets/background.png') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -19,7 +19,7 @@ body.watergirlPage {
 
 body.fireboyPage,
 body.watergirlPage {
-  background: none; 
+  background-image: none; 
 }
 
 
