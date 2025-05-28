@@ -1,68 +1,60 @@
-body {
+/* Reset default spacing */
+body, html {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #1e1e2f;
-  color: #fff;
-}
-
-header {
-  background: linear-gradient(to right, #ff512f, #dd2476);
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-nav ul {
-  list-style: none;
   padding: 0;
+  height: 100%;
+}
+
+/* Full-screen background image */
+body {
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Center the content */
+.center-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* Button styles */
+.button-group {
+  display: flex;
   gap: 20px;
 }
 
-nav a {
-  color: #fff;
+.btn {
+  padding: 15px 25px;
+  font-size: 1.2rem;
   text-decoration: none;
-  font-weight: bold;
-}
-
-.character {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.fire {
-  background: #ff6a00;
-}
-
-.water {
-  background: #00bfff;
-}
-
-.play-now {
-  background: #333;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.play-button {
-  display: inline-block;
-  padding: 15px 30px;
-  background: #00ffcc;
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
+  color: white;
+  border: none;
   border-radius: 10px;
-  margin-top: 20px;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
-footer {
-  background: #111;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9em;
+.fireboy {
+  background-color: rgba(255, 69, 0, 0.8);
+}
+
+.watergirl {
+  background-color: rgba(30, 144, 255, 0.8);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
 }
