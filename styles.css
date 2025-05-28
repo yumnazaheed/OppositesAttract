@@ -50,11 +50,18 @@ nav a {
 }
 
 /* Optional: Give more spacing between buttons and title */
-.center-content h1 {
-  font-size: 3rem;
-  margin-bottom: 30px;
-  text-shadow: 2px 2px 4px #000;
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
 
 .button-group {
   display: flex;
