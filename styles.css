@@ -1,12 +1,16 @@
 body.index {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-image: url('assets/background.png') no-repeat center center fixed;
+  background-image: url('assets/background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   color: #fff;
   position: relative;
   height: 100vh;
 }
+
 
 body.fireboyPage {
   background: linear-gradient(to right, #24c6dc, #514a9d); 
@@ -141,10 +145,18 @@ footer {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.buttonFireboy {
+.button.Fireboy {
   background-color: #ff6a00;
 }
 
-.buttonWatergirl {
+.button.Watergirl {
   background-color: #00bfff;
+}
+
+.button.Fireboy:hover {
+  background-color: #e65c00;
+}
+
+.button.Watergirl:hover {
+  background-color: #009acd;
 }
