@@ -8,6 +8,15 @@ body {
   height: 100vh;
 }
 
+body.fireboyPage {
+  background-color: rgba(30, 144, 255, 0.8); /* fiery orange-red overlay */
+}
+
+/* Watergirl page */
+body.watergirlPage {
+  background-color: rgba(255, 69, 0, 0.8); /* cool blue overlay */
+}
+
 
 /* Header styling */
 header {
