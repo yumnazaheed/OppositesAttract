@@ -1,4 +1,5 @@
-#Opposites Attract: Fireboy & Watergirl 🔥💧
+# Opposites Attract: Fireboy & Watergirl 🔥💧
+
 This page celebrates their teamwork, contrasting abilities, and the fun challenges they overcome together in their elemental adventures.
 
 🌟 Overview
