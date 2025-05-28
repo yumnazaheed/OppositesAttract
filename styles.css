@@ -1,4 +1,4 @@
-body {
+body.index {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: url('assets/background.png') no-repeat center center fixed;
@@ -15,6 +15,11 @@ body.fireboyPage {
 /* Watergirl page */
 body.watergirlPage {
   background-color: rgba(255, 69, 0, 0.8); /* cool blue overlay */
+}
+
+body.fireboyPage,
+body.watergirlPage {
+  background-image: none; /* disables image */
 }
 
 
