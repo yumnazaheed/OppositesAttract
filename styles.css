@@ -9,11 +9,11 @@ body.index {
 }
 
 body.fireboyPage {
-  background-color:linear-gradient(to right, #24c6dc, #514a9d); 
+  background:linear-gradient(to right, #24c6dc, #514a9d); 
 }
 
 body.watergirlPage {
-  background-color:linear-gradient(to right, #ff512f, #dd2476); 
+  background:linear-gradient(to right, #ff512f, #dd2476); 
 }
 
 
