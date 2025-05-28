@@ -9,11 +9,10 @@
 </head>
 
 <body class = "index">
-  <audio id="bg-music" loop>
+  <audio id="backgroundMusic" loop>
     <source src="assets/Level Music.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
-  <button id="play-music-btn">Play Music</button>
+  <button id="playMusicButton">Play Music</button>
 
   <header>
     <h1>🔥 Fireboy & Watergirl 💧</h1>
@@ -30,17 +29,19 @@
     <div class="text-box">
       <h1>Opposites Attract</h1>
       <p>
-        In the mystical Crystal Temple, Fireboy and Watergirl discovered that their opposing natures created the perfect balance. Together, they could solve puzzles that neither could tackle alone, teaching us that the best development teams combine different strengths and perspectives.
+        In the mystical Crystal Temple, Fireboy and Watergirl discovered that their opposing natures create the perfect balance. Together, they solve puzzles that neither could tackle alone, teaching us that the best teams combine different strengths and perspectives.
       </p>
-    </div>    <div class="button-group">
+    </div>    
+    
+    <div class="HomeButton">
       <a href="fireboy.html" class="btn fireboy">Fireboy Profile🔥</a>
       <a href="watergirl.html" class="btn watergirl"> Watergirl Profile💧</a>
     </div>
   </div>
 
   <script>
-    const music = document.getElementById('bg-music');
-    const playBtn = document.getElementById('play-music-btn');
+    const music = document.getElementById('backgroundMusic');
+    const playBtn = document.getElementById('playMusicButton');
 
     window.addEventListener('load', () => {
       music.play().catch(() => {

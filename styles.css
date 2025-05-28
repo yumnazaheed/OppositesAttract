@@ -19,7 +19,7 @@ body.watergirlPage {
 
 body.fireboyPage,
 body.watergirlPage {
-  background-image: none; /* disables image */
+  background: none; /* disables image */
 }
 
 
@@ -58,7 +58,7 @@ nav a {
 }
 
 /* Fix center content layout */
-.center-content {
+.centerContent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@ nav a {
   position: relative;
 }
 
-.text-box {
+.text {
   background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
   padding: 30px;
   border-radius: 15px;
@@ -80,22 +80,7 @@ nav a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-
-/* Optional: Give more spacing between buttons and title
-.center-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-} */
-
-
-.button-group {
+.HomeButton {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -149,7 +134,7 @@ footer {
   font-size: 0.9em;
 }
 
-#play-music-btn {
+#playMusicButton {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -164,7 +149,7 @@ footer {
   z-index: 10;
 }
 
-#play-music-btn:hover {
+#playMusicButton:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
