@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,12 +8,14 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<audio autoplay loop>
-  <source src="assets/Level Music.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 <body>
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="assets/Level Music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="play-music-btn">🎵 Play Music</button>
+
   <header>
     <h1>🔥 Fireboy & Watergirl 💧</h1>
     <nav>
@@ -33,7 +34,20 @@
     </div>
   </div>
 
+  <script>
+    const music = document.getElementById('bg-music');
+    const playBtn = document.getElementById('play-music-btn');
+
+    window.addEventListener('load', () => {
+      music.play().catch(() => {
+        playBtn.style.display = 'block';
+      });
+    });
+
+    playBtn.addEventListener('click', () => {
+      music.play();
+      playBtn.style.display = 'none';
+    });
+  </script>
 </body>
 </html>
-
-
