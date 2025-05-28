@@ -11,6 +11,12 @@ body.index {
   height: 100vh;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
 
 body.fireboyPage {
   background: linear-gradient(to right, #24c6dc, #514a9d); 
@@ -153,10 +159,3 @@ footer {
   background-color: #00bfff;
 }
 
-.button.Fireboy:hover {
-  background-color: #e65c00;
-}
-
-.button.Watergirl:hover {
-  background-color: #009acd;
-}
