@@ -17,10 +17,10 @@ body.watergirlPage {
 }
 
 
-body.fireboyPage,
+/* body.fireboyPage,
 body.watergirlPage {
   background-image: none; 
-}
+} */
 
 
 header {
@@ -148,10 +148,10 @@ footer {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.btn.fireboy {
+.button.fireboy {
   background-color: #ff6a00;
 }
 
-.btn.watergirl {
+.button.watergirl {
   background-color: #00bfff;
 }
