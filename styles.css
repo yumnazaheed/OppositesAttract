@@ -9,19 +9,12 @@ body.index {
 }
 
 body.fireboyPage {
-  background:linear-gradient(to right, #24c6dc, #514a9d); 
+  background: linear-gradient(to right, #24c6dc, #514a9d); 
 }
 
 body.watergirlPage {
-  background:linear-gradient(to right, #ff512f, #dd2476); 
+  background: linear-gradient(to right, #ff512f, #dd2476); 
 }
-
-
-/* body.fireboyPage,
-body.watergirlPage {
-  background-image: none; 
-} */
-
 
 header {
   background: linear-gradient(to right, #48ceec, #d5371e);
@@ -148,10 +141,10 @@ footer {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.button.fireboy {
+.buttonFireboy {
   background-color: #ff6a00;
 }
 
-.button.watergirl {
+.buttonWatergirl {
   background-color: #00bfff;
 }
