@@ -7,7 +7,7 @@ body {
 
 /* Header styling */
 header {
-  background: linear-gradient(to right, #ff512f, #dd2476);
+  background: linear-gradient(to right, #8ce0f2, #ef5454);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,8 @@ header {
 header h1 {
   margin: 0;
   font-size: 2.5em;
+  text-align: center;  /* centers text inside header */
+
 }
 
 /* Navigation bar */
@@ -37,12 +39,38 @@ nav a {
   font-weight: bold;
 }
 
+/* Fix center content layout */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
 
+/* Optional: Give more spacing between buttons and title */
+.center-content h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #000;
+}
 
-nav a {
-  color: #fff;
+.button-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 1.2rem;
   text-decoration: none;
-  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
 .character {
