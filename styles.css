@@ -1,3 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+}
+
+header {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.character {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.fire {
+  background: #ff6a00;
+}
+
+.water {
+  background: #00bfff;
+}
+
+.play-now {
+  background: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.play-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
 #play-music-btn {
   position: absolute;
   top: 20px;
